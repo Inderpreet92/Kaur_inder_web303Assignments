@@ -1,21 +1,15 @@
 $(document).ready(function() {
-    // Accordion
-    $('.accordion-section').click(function() {
-        const accordion = $(this).parent();
-        accordion.find('.accordion-content').not($(this).find('.accordion-content')).slideUp();
-        $(this).find('.accordion-content').slideToggle();
+    // Accordion functionality
+    $('.accordion-label').click(function() {
+        $(this).siblings('.accordion-content').slideToggle();
+        $('.accordion-content').not($(this).siblings('.accordion-content')).slideUp();
     });
 
-    // Tabbed Section
-    $('.tab-button').click(function() {
-        const target = $(this).data('target');
-        $('.tab-button').removeClass('active');
-        $(this).addClass('active');
-        $('.tab-panel').hide();
-        $('#' + target).show();
+    // Tab functionality
+    $('.tab-links a').click(function(e) {
+        e.preventDefault();
+        var tabId = $(this).attr('href');
+        $('.tab-content').hide();
+        $(tabId).show();
     });
-
-    // Default tab to show on page load
-    $('#tab1').show();
-    $('.tab-button[data-target="tab1"]').addClass('active');
 });
