@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Photo Viewer Styles */
+#photo-viewer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photo-viewer img {
+    border: 2px solid green; /* Choose your border color */
+    margin: 5px;
+}
+
+#photo-viewer .active-thumbnail img {
+    border: 2px solid pink;
+}
+
+/* Modal Styles */
+#modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#modal-content img {
+    width: 800px;
+    height: 450px;
+}
+
+#modal h2 {
+    text-align: center;
+}
+
+#close-modal {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: skyblue; /* Choose your button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

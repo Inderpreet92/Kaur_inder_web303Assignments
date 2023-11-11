@@ -1,0 +1,17 @@
+#photo-viewer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#photo-viewer img {
+  border: 2px solid green; /* Choose your border color */
+  margin: 5px;
+  Width: auto;
+  height: 15%;
+}
+
+#photo-viewer .active-thumbnail img {
+  border: 2px solid pink;
+  Height: 10%;
+  width:15%;
+}
