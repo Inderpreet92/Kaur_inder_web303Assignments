@@ -1,0 +1,52 @@
+[{
+    "Character Id":"1",
+    "Charactername":"Seong Gi-hun",
+    "Role":"Player 456",
+    "Portrayed by":	"Lee Jung-jae",
+    "date": "2000-11-01"
+   },
+   {
+    "Character Id":"2",
+    "Charactername":"Cho Sang-woo",
+    "Role":"Player 218",
+    "Portrayed by":	"Park Hae-soo",
+    "date": "1980-13-12"
+  },
+  {
+    "Character Id":"3",
+    "Charactername":"Kang Sae-byeok",
+    "Role":"Player 067",
+    "Portrayed by":	"HoYeon Jung",
+    "date": "1985-05-05"
+   },
+{
+    "Character Id":"4",
+    "Charactername":"Oh Il-nam",
+    "Role":"Player 001",
+    "Portrayed by":	"O Yeong-su",
+    "date": "1983-09-19"
+   },
+{
+    "Character Id":"5",
+    "Charactername":"Hwang Jun-ho",
+    "Role":	"Police detective",
+    "Portrayed by":	"Wi Ha-joon",
+    "date": "2003-11-29"
+   },
+{
+
+    "Character Id":"6",
+    "Charactername":"Ali Abdul",
+    "Role":"Player 199",
+    "Portrayed by":	"Anupam Tripathi",
+    "date": "1985-01-30"
+   },
+   {
+   "Character Id":"7",
+   "Charactername":"Han Mi-nyeo",
+   "Role":"Player 212",
+   "Portrayed by":	" Kim Joo-ryoung",
+   "date": "1990-12-20"
+   }
+
+]
