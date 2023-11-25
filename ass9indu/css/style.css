@@ -1,0 +1,62 @@
+/* Reset default margin/padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+th a {
+  text-decoration: none;
+  color: #333;
+}
+
+th a:hover {
+  color: #000;
+}
+
+/* Sort indicator styling */
+.sort {
+  position: relative;
+}
+
+.sort::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* Chevron up/down styles */
+[data-sort][data-sort-dir="asc"]::after {
+  content: "\25B2"; /* Unicode for up arrow */
+}
+
+[data-sort][data-sort-dir="desc"]::after {
+  content: "\25BC"; /* Unicode for down arrow */
+}
