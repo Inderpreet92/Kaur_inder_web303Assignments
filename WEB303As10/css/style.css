@@ -1,0 +1,32 @@
+/* Add your desired styles here */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    margin:auto;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #7a4caf;
+    color: rgb(163, 135, 135);
+    border:violet;
+  }
+  
+  button:disabled {
+    background-color:lightpink;
+    cursor: not-allowed;
+  }
+  
